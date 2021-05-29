@@ -7,15 +7,11 @@ val=InstrRev(str,Right(str,1))
 MsgBox val
 
 
-'2 Option
+str="Autoamtion"
+Set regExp=New RegExp
+regExp.pattern="[A-Za-z0-9]"
+regExp.Global=True
+set obj=regExp.Execute(str)
 
-newstr="BAHIUDTE"
-i=0
-
-Do Until newstr=""
-
-	i=i+1
-	newstr=Replace(newstr, Left(newstr,1),"")
-Loop
-MsgBox i
+Msgbox obj.Count
 
