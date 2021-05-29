@@ -33,3 +33,8 @@ y=VarType(x)
 
 '8 Return 8 VarType is String
 MsgBox "VarType" & y
+
+
+Rem Asc
+
+num=Asc("64")
