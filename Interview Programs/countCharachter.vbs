@@ -11,3 +11,9 @@ For i=1 To len(str)
 	End If
 Next
 		
+		
+
+str="Raja Sekhar Reddy"
+newStr=len(str)-len(Replace(str, "a",""))
+MsgBox newStr
+

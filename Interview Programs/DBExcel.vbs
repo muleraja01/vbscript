@@ -1,7 +1,7 @@
 Dim objConn,objRs,strExcelFile,strQuery
 
 Set objConn=CreatObject("ADODB.Connection")
-Set objRs=CreateObject(ADODDB.RecordSet")
+Set objRs=CreateObject("ADODDB.RecordSet")
 strExcelFile=""
 objConn.Open "Driver={Microsoft Excel Driver (*.xls)};DBQ= "&strExcelFile& ";ReadOnly=True;
 strQuery="Select * From [TestData$]"
