@@ -15,7 +15,7 @@ set obj=regExp.Execute(str)
 
 Msgbox obj.Count
 
-set obj=regExp.Test(str)
+obj=regExp.Test(str)
 
-MsgBox
+MsgBox obj
 
