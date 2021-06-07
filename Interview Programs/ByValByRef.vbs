@@ -1,21 +1,20 @@
-Sub begin()
-Dim last_column
 
-last_column = 234
-MsgBox "Begin:" & last_column
-
-trying_byref x:=last_column
-MsgBox "byref:" & last_column
-
-trying_byval v:=last_column
-MsgBox "byval:" & last_column
-End Sub
+Call begin()
+Function begin()
+	Call trying_byref()
+	Call trying_byval(
+	
+	
+	)
+	call trying_byref()
+End Function
 
 Sub trying_byref(ByRef x)
-x = 111
+MsgBox "In Here:" & x
 End Sub
 
 Sub trying_byval(ByVal v)  '<--not ByRef, that was in sub trying_byref.
+MsgBox "In Here:" & v
 v = 222
 MsgBox "In Here:" & v
 End Sub
