@@ -1,7 +1,7 @@
 
 Rem InStr 
 'Return Position of 1st Occurenece of 1 string with another String .Search begins from 1st charachter
-'Syntax: Instr(Start, String1, String 2, Compare)
+'Syntax: Instr(Start, String1, String2, Compare)
 'Start -Option Position of charachter
 'Compare :  0- VbBinaryCompare-Binary Comprassion(Default)
 '			1- VbTextCompare -Text Comprassion
