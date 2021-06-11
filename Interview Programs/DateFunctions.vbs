@@ -14,8 +14,8 @@ Rem DateDiff
 
 Dim Date1, Date2, x
 
-Date1=#10-03-21#
-Date2=#21-10-21#
+Date1="10-03-21"
+Date2="21-10-21"
 
 q=DateDiff("q", Date1, Date2)
 d=DateDiff("d", Date1, Date2)
