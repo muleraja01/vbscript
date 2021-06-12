@@ -1,0 +1,11 @@
+Recovery Function
+
+In a File having multiple Names need to remove duplicate names
+
+remove duplicate aplhabets in string
+
+WebTable need to select company name with next column having checkbox
+
+difference between TestObject andd run timeobject
+
+Debug Options
