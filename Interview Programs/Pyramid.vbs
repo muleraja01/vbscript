@@ -10,7 +10,7 @@ For i= 1 To str step 1
 Next 
 msgBox newstr
 
-For i= 5 to 1 step -1
+For i= str to 1 step -1
 	For j= 1 to i
 		newstr=newstr & i
 	NExt
