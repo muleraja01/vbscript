@@ -2,10 +2,7 @@
 Call begin()
 Function begin()
 	Call trying_byref()
-	Call trying_byval(
-	
-	
-	)
+	Call trying_byval()
 	call trying_byref()
 End Function
 

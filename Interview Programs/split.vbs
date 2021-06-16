@@ -5,12 +5,12 @@ Rem Syntax: Split(expression, delimeter, Count, compare)- Delimeter -> 	subStrin
 Rem													-	count Optional. The number of substrings to be returned. -1 indicates that all substrings are returned
 		
 		
-a=Split("SundayMondayTuesdayWednesdayThursdayFridaySaturday","day")
+a=Split("SundayMondayTuesdayWednesdayThursdayFridaySaturday","day",3,vbTextCompare)
 'for each x in a
  '   MsgBox x
 'next
 
-For i= 0 TO UBound(a)-1 Step 1
+For i= 0 TO UBound(a) Step 1
 	MsgBox a(i)
 Next 
 
@@ -22,5 +22,5 @@ reex.ignoreCase=True
 Set obj=reex.Execute(Str)
 
 for Each i in obj
-	msgBox i.value
+	'msgBox i.value
 Next
