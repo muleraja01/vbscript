@@ -14,4 +14,19 @@ Next
 
 Msgbox Str
 
+Str="Selenese"
+Set reex= New RegExp
+reex.Pattern ="e"
+reex.Global=True
+Set Obj =Reex.Execute(Str)
+MsgBox  Obj.Count
+For i =1 To Obj.Count
+Str=Replace(Str, "e", String(i,"*"), 1, i,vbTextCompare)
+Next	
+
+Msgbox Str
+
+
+
+
 
