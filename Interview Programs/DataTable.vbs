@@ -22,3 +22,9 @@
 
 'GetSheetCount    : DataTable.GetSheetCount
 
+'SetCurrentRow    : DataTable.SetCurrentRow(RowNumber) ->Sets the Focus of the Current row to the Specified Row Number
+
+'SetNextRow		  : DataTable.SetNextRow
+
+'SetPreviousRow   : DataTable.SetPrevRow
+
